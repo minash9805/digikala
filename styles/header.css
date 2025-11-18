@@ -1,14 +1,19 @@
-.top{
-    height: 60px;
+.top--1{
     width: 100%;
-    img{
-        width: 100%;
-        
-        height: inherit;
-        object-fit: cover;
-    }
+    height: 60px;
+    margin: 0 auto;
+    
+    
+    
 
 }
+
+.top--1-img{
+        width: 1512.8px;
+        
+        height: 60px;
+        object-fit: cover;
+    }
 .center{
     width: 1496px;
     height: 68px;
