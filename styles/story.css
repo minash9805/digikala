@@ -1,0 +1,45 @@
+.story{
+    width: 1336px;
+    height: 156px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .swiper-slide{
+        width: 84px;
+        height: 140px;
+        .swiper-link{
+            width: inherit;
+            height: inherit;
+            text-decoration: none;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+            .swiper-img{
+                width: 74px;
+                height: 74px;
+                object-fit: cover;
+                border-radius: 50%;
+                outline: 2px solid #b64399;
+                outline-offset: 3px;
+
+
+            }
+            .swiper-title{
+                width: 84px;
+                height: 24px;
+                font-family: yekan;
+                font-size: 11px;
+                color: black;
+                text-align: center;
+                
+
+
+            }
+        }
+    }
+}

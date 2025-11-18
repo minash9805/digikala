@@ -1,0 +1,146 @@
+.box-10{
+    width: 90%;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-10-right{
+    width: 120px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-10-right-h2{
+    font-family: yekan;
+    font-size: 16px;
+}
+.box-10-left{
+    width: 200px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-10-link{
+    width: 190px;
+    height: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.box-10-link-h2{
+    font-family: yekan;
+    font-size: 12px;
+    color: #19BFD3;
+}
+.box-10-link-svg{
+    width: 20px;
+    height: 20px;
+    color: #19BFD3;
+
+}
+.box-11{
+    width: 90%;
+    height: 280px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-11-child{
+    width: 325px;
+    height: inherit;
+    border: 1px solid rgb(191, 188, 188);
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-11-child-img{
+    width: 322px;
+    height: 203px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.box-11-child-h2{
+    width: 322px;
+    height: 76px;
+    font-family: yekan;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+    color: rgb(103, 102, 102);
+}
+.box-11-circle{
+    width: 48px;
+    height: 48px;background-color: #EF4056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    
+
+}
+.box-11-circle-svg{
+    width: 24px;
+    height: 24px;
+    color: white;
+    
+}
+.fixed{
+    width: 285px;
+    height: 52px;
+    background-color: #029A49;
+    border-radius: 30px;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fixed-h3{
+    width: 79px;
+    height: 42px;
+    font-family: yekan;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.fixed-h2{
+    width: 142px;
+    height: 42px;
+    font-family: yekan;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.fixed-svg{
+    width: 24px;
+    height: 24px;
+    color: white;
+    margin-left: 10px;
+}
+.fixed-child{
+    height: 20px;
+    width: 0.5px;
+    background-color: white;
+    
+}

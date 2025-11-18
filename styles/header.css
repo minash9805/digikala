@@ -1,0 +1,353 @@
+.top{
+    height: 60px;
+    width: 100%;
+    img{
+        width: 100%;
+        
+        height: inherit;
+        object-fit: cover;
+    }
+
+}
+.center{
+    width: 1496px;
+    height: 68px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .c-right{
+        width: 195px;
+        height: 30px;
+
+
+
+    }
+    .c-center{
+        width: 1029.71px;
+        height: 44px;
+        position: relative;
+
+        .size-6{
+            width: 24px;
+            height: 24px;
+            color: #a1a3a8;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            
+
+        }
+        
+        .search{
+            width: 600px;
+            height: inherit;
+            background-color: #f0f0f1;
+            border-color: #f0f0f1;
+            border-radius: 5px;
+        }
+
+
+
+    }
+    .c-left{
+        width: 251.288px;
+        height: 44px;
+        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .ring{
+            width: 40px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .bell{
+                width: 24px;
+                height: 24px;
+                
+            }
+
+        }
+        .enter{
+            width: 134.288px;
+            height: 40px;
+            border: 1px solid #adafb3;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            
+            .enter-child-1{
+                width: 24px;
+                height: 24px;
+            }
+            .enter-child-2,.enter-child-3{
+                font-family: yekan;
+                font-size: 12px;
+                color: #0C0C0C;
+                
+            }
+            .enter-child-2{
+                border-left: 1px solid #adafb3;
+                padding-left: 5px;
+            }
+
+        }
+        .buy{
+            width: 40px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid #adafb3;
+            .shop{
+                width: 24px;
+                height: 24px;
+            }
+
+        }
+
+
+
+
+
+    }
+
+
+}
+.bottom{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 32px;
+    border-bottom: 1px solid #adafb3;
+    padding-bottom: 10px;
+    
+    .b-right{
+        width: 824px;
+        height: inherit;
+        
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        
+            .b-right-1{
+            width: 141.925px;
+            height: 40px;
+            
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                text-decoration: none;
+                color: #0C0C0C;
+                .b-r-1-svg{
+                width: 24px;
+                height: 24px;
+
+            }
+            .b-r-1-h2{
+                font-family: yekan;
+                font-size: 14px;
+            }
+            }
+        
+        }
+        .b-right-2{
+            width: 115.4px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                gap: 5px;
+                .b-r-1-svg{
+                    width: 24px;
+                    height: 24px;
+                    color: #62666D;
+
+                }
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+        .b-right-3{
+            width: 101.637px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                gap: 5px;
+                .b-r-1-svg{
+                    width: 24px;
+                    height: 24px;
+                    color: #62666D;
+
+                }
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+        .b-right-4{
+            width: 115.05px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                gap: 5px;
+                .b-r-1-svg{
+                    width: 24px;
+                    height: 24px;
+                    color: #62666D;
+
+                }
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+        .b-right-5{
+            width: 121.4px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                gap: 5px;
+                .b-r-1-svg{
+                    width: 24px;
+                    height: 24px;
+                    color: #62666D;
+
+                }
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+        .b-right-6{
+            width: 89.9px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+        .b-right-7{
+            width: 131.7px;
+            height: 40px;
+            .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+        }
+
+
+
+
+    }
+    .b-left{
+        width: 132.95px;
+        height: inherit;
+        
+        display: flex;
+        .menue{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                gap: 5px;
+                .b-r-1-svg{
+                    width: 24px;
+                    height: 24px;
+                    color: #62666D;
+
+                }
+                .b-r-1-h2{
+                    font-family: yekan;
+                    font-size: 12px;
+                    color: #62666D;
+
+                }
+            }
+
+    }
+
+}

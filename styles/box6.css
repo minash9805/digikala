@@ -1,0 +1,53 @@
+.box-6{
+    width: 90%;
+    height: 224px;
+    margin: 20px auto;
+    border: 1px solid #dddde0;
+    border-radius: 20px;
+    
+}
+    .box-6-title{
+        width: inherit;
+        height: 44px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px auto;
+
+    }
+    .box-6-title-h2{
+        font-family: yekan;
+        font-size: 21px;
+
+
+    }
+    .box-6-title-svg{
+        width: 24px;
+        height: 24px;
+        color: #f9c032;
+
+    }
+    .mybox-6 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .mybox-6 .swiper-slide {
+        width: 142px;
+        height: 118px;
+      text-align: center;
+      font-size: 18px;
+      border-right: 1px solid #dddde0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mybox-6 .swiper-slide img {
+      display: block;
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+    }

@@ -1,0 +1,52 @@
+.box{
+    width: 92%;
+    height: 144px;
+    
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle{
+    width: 82px;
+    height: 127px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle-img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.circle-title{
+    width: inherit;
+    height: 72px;
+    font-family: yekan;
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.circle-svg-p{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-svg-c{
+    width: 24px;
+    height: 24px;
+}
